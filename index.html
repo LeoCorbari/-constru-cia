@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bootstrap 5 Project</title>
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><span class="text-warning">Constro</span>&CIA</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Sobre</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Serviços</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#portifolio">Portifolio</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Equipe</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/home-1.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption">
+            <h5>Sua casa dos sonhos</h5>
+            <p>
+              Construa sua casa dos sonhos conosco, entre em contato conosco e
+              contemple nosso Portifolio.
+            </p>
+            <p><a href="#" class="btn btn-warning mt-3">Saiba mais</a></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/home-2.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption">
+            <h5>Dedicação sempre</h5>
+            <p>
+              Sua obra sendo realizada com a maior dedicação profissional e
+              especializada possível.
+            </p>
+            <p><a href="#" class="btn btn-warning mt-3">Saiba mais</a></p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/home-3.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption">
+            <h5>Verdadeira construção</h5>
+            <p>
+              Construa sua casa dos sonhos com orçamentos e preços acessiveis.
+            </p>
+            <p><a href="#" class="btn btn-warning mt-3">Saiba mais</a></p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--Sobre-->
+
+    <section id="about" class="about section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-mds-12 col-12">
+            <div class="about-img">
+              <img src="assets/about.jpg" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-mds-5">
+            <div class="about-text">
+              <h2>Nós provemos o melhor serviço de <br />qualidade sempre</h2>
+              <p>
+                A empresa Constro&CIA tem como missão, sempre prestar serviços e
+                atendimento de qualidade ao nosso amigo cliente, realizando
+                sonhos desde 1985 e evoluindo desde então, são mais de 300
+                executados de maneira agil, preço justo e com qualidade.
+              </p>
+              <a href="#" class="btn btn-warning">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Sobre-->
+
+    <section id="services" class="services section-padd">
+      <div class="container">
+        <div class="row">
+          <div class="col-mds-12">
+            <div class="section-header text-center pb-5">
+              <h2>Nossos Serviços</h2>
+              <p>Venda de materiais de construção</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-mds-12 col-lg-4">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <i class="bi bi-subtract"></i>
+                <h3 class="card-title">Melhor Qualidade</h3>
+                <p class="lead">Adicionar texto</p>
+                <button class="btn btn-warning text-dark">Ler mais</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
