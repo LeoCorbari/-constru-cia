@@ -14,6 +14,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <link rel="stylesheet" href="style.css" />
     <title>Constu&CIA</title>
   </head>
@@ -23,6 +25,10 @@
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <!--NavBar-->
 
@@ -161,21 +167,25 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-4 col-mds-12 col-12">
-            <div class="about-img">
-              <img src="assets/about.jpg" alt="" class="img-fluid" />
+            <div data-aos="fade-up-right">
+              <div class="about-img">
+                <img src="assets/about.jpg" alt="" class="img-fluid" />
+              </div>
             </div>
           </div>
           <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-mds-5">
-            <div class="about-text">
-              <h2>Nós provemos o melhor serviço de <br />qualidade sempre</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
-                quis illo ex laboriosam. Eveniet neque sed doloremque animi
-                doloribus placeat commodi qui expedita quidem corporis
-                asperiores dolore beatae necessitatibus dolorem in, numquam
-                sequi nulla ipsum!
-              </p>
-              <a href="#" class="btn btn-warning">Saiba mais</a>
+            <div data-aos="fade">
+              <div class="about-text">
+                <h2>Nós provemos o melhor serviço de <br />qualidade sempre</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+                  quis illo ex laboriosam. Eveniet neque sed doloremque animi
+                  doloribus placeat commodi qui expedita quidem corporis
+                  asperiores dolore beatae necessitatibus dolorem in, numquam
+                  sequi nulla ipsum!
+                </p>
+                <a href="#" class="btn btn-warning">Saiba mais</a>
+              </div>
             </div>
           </div>
         </div>
@@ -197,47 +207,53 @@
 
         <div class="row">
           <div class="col-12 col-mds-12 col-lg-4">
-            <div class="card text-white text-center bg-dark pb-2">
-              <div class="card-body">
-                <i class="bi bi-bricks"></i>
-                <h3 class="card-title">Melhor Qualidade</h3>
-                <p class="lead">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Harum ab, maxime ex vitae aliquid perferendis similique
-                  veniam. Consequatur sint esse saepe ipsum facere est, illo
-                  incidunt ratione, blanditiis odio at.
-                </p>
-                <button class="btn btn-warning text-dark">Ler mais</button>
+            <div data-aos="flip-up" data-aos-delay="100">
+              <div class="card text-white text-center bg-dark pb-2">
+                <div class="card-body">
+                  <i class="bi bi-bricks"></i>
+                  <h3 class="card-title">Melhor Qualidade</h3>
+                  <p class="lead">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Harum ab, maxime ex vitae aliquid perferendis similique
+                    veniam. Consequatur sint esse saepe ipsum facere est, illo
+                    incidunt ratione, blanditiis odio at.
+                  </p>
+                  <button class="btn btn-warning text-dark">Ler mais</button>
+                </div>
               </div>
             </div>
           </div>
           <div class="col-12 col-mds-12 col-lg-4">
-            <div class="card text-white text-center bg-dark pb-2">
-              <div class="card-body">
-                <i class="bi bi-tree-fill"></i>
-                <h3 class="card-title">Sustentabilidade</h3>
-                <p class="lead">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Harum ab, maxime ex vitae aliquid perferendis similique
-                  veniam. Consequatur sint esse saepe ipsum facere est, illo
-                  incidunt ratione, blanditiis odio at.
-                </p>
-                <button class="btn btn-warning text-dark">Ler mais</button>
+            <div data-aos="flip-up" data-aos-delay="200">
+              <div class="card text-white text-center bg-dark pb-2">
+                <div class="card-body">
+                  <i class="bi bi-tree-fill"></i>
+                  <h3 class="card-title">Sustentabilidade</h3>
+                  <p class="lead">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Harum ab, maxime ex vitae aliquid perferendis similique
+                    veniam. Consequatur sint esse saepe ipsum facere est, illo
+                    incidunt ratione, blanditiis odio at.
+                  </p>
+                  <button class="btn btn-warning text-dark">Ler mais</button>
+                </div>
               </div>
             </div>
           </div>
           <div class="col-12 col-mds-12 col-lg-4">
-            <div class="card text-white text-center bg-dark pb-2">
-              <div class="card-body">
-                <i class="bi bi-subtract"></i>
-                <h3 class="card-title">Integridade</h3>
-                <p class="lead">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Harum ab, maxime ex vitae aliquid perferendis similique
-                  veniam. Consequatur sint esse saepe ipsum facere est, illo
-                  incidunt ratione, blanditiis odio at.
-                </p>
-                <button class="btn btn-warning text-dark">Ler mais</button>
+            <div data-aos="flip-up" data-aos-delay="300">
+              <div class="card text-white text-center bg-dark pb-2">
+                <div class="card-body">
+                  <i class="bi bi-subtract"></i>
+                  <h3 class="card-title">Integridade</h3>
+                  <p class="lead">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Harum ab, maxime ex vitae aliquid perferendis similique
+                    veniam. Consequatur sint esse saepe ipsum facere est, illo
+                    incidunt ratione, blanditiis odio at.
+                  </p>
+                  <button class="btn btn-warning text-dark">Ler mais</button>
+                </div>
               </div>
             </div>
           </div>
@@ -251,12 +267,14 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <div class="section-header text-center pb-5">
-              <h2>Nossos Projetos</h2>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt,
-                neque?
-              </p>
+            <div data-aos="fade" data-aos-duration="2000">
+              <div class="section-header text-center pb-5">
+                <h2>Nossos Projetos</h2>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Sunt, neque?
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -334,90 +352,98 @@
         </div>
         <div class="row">
           <div class="col-12 col-md-6 col-lg-3">
-            <div class="card text-center">
-              <div class="card-body">
-                <img
-                  src="assets/team-1.jpg"
-                  alt=""
-                  class="img-fluid rounded-circle"
-                />
-                <h3 class="card-title py-2">Jack Wilson</h3>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                  facere fuga nulla!
-                </p>
-                <p class="socials">
-                  <i class="bi bi-twitter text-dark mx-1"></i>
-                  <i class="bi bi-facebook text-dark mx-1"></i>
-                  <i class="bi bi-linkedin text-dark mx-1"></i>
-                  <i class="bi bi-instagram text-dark mx-1"></i>
-                </p>
+            <div data-aos="flip-left" data-aos-delay="100">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img
+                    src="assets/team-1.jpg"
+                    alt=""
+                    class="img-fluid rounded-circle"
+                  />
+                  <h3 class="card-title py-2">Jack Wilson</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                    facere fuga nulla!
+                  </p>
+                  <p class="socials">
+                    <i class="bi bi-twitter text-dark mx-1"></i>
+                    <i class="bi bi-facebook text-dark mx-1"></i>
+                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                    <i class="bi bi-instagram text-dark mx-1"></i>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3">
-            <div class="card text-center">
-              <div class="card-body">
-                <img
-                  src="assets/team-2.jpg"
-                  alt=""
-                  class="img-fluid rounded-circle"
-                />
-                <h3 class="card-title py-2">Fabien Brough</h3>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                  facere fuga nulla!
-                </p>
-                <p class="socials">
-                  <i class="bi bi-twitter text-dark mx-1"></i>
-                  <i class="bi bi-facebook text-dark mx-1"></i>
-                  <i class="bi bi-linkedin text-dark mx-1"></i>
-                  <i class="bi bi-instagram text-dark mx-1"></i>
-                </p>
+            <div data-aos="flip-left" data-aos-delay="200">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img
+                    src="assets/team-2.jpg"
+                    alt=""
+                    class="img-fluid rounded-circle"
+                  />
+                  <h3 class="card-title py-2">Fabien Brough</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                    facere fuga nulla!
+                  </p>
+                  <p class="socials">
+                    <i class="bi bi-twitter text-dark mx-1"></i>
+                    <i class="bi bi-facebook text-dark mx-1"></i>
+                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                    <i class="bi bi-instagram text-dark mx-1"></i>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3">
-            <div class="card text-center">
-              <div class="card-body">
-                <img
-                  src="assets/team-3.jpg"
-                  alt=""
-                  class="img-fluid rounded-circle"
-                />
-                <h3 class="card-title py-2">Chelsie Rojas</h3>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                  facere fuga nulla!
-                </p>
-                <p class="socials">
-                  <i class="bi bi-twitter text-dark mx-1"></i>
-                  <i class="bi bi-facebook text-dark mx-1"></i>
-                  <i class="bi bi-linkedin text-dark mx-1"></i>
-                  <i class="bi bi-instagram text-dark mx-1"></i>
-                </p>
+            <div data-aos="flip-left" data-aos-delay="300">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img
+                    src="assets/team-3.jpg"
+                    alt=""
+                    class="img-fluid rounded-circle"
+                  />
+                  <h3 class="card-title py-2">Chelsie Rojas</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                    facere fuga nulla!
+                  </p>
+                  <p class="socials">
+                    <i class="bi bi-twitter text-dark mx-1"></i>
+                    <i class="bi bi-facebook text-dark mx-1"></i>
+                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                    <i class="bi bi-instagram text-dark mx-1"></i>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-3">
-            <div class="card text-center">
-              <div class="card-body">
-                <img
-                  src="assets/team-4.jpg"
-                  alt=""
-                  class="img-fluid rounded-circle"
-                />
-                <h3 class="card-title py-2">Kerri Hackett</h3>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                  facere fuga nulla!
-                </p>
-                <p class="socials">
-                  <i class="bi bi-twitter text-dark mx-1"></i>
-                  <i class="bi bi-facebook text-dark mx-1"></i>
-                  <i class="bi bi-linkedin text-dark mx-1"></i>
-                  <i class="bi bi-instagram text-dark mx-1"></i>
-                </p>
+            <div data-aos="flip-left" data-aos-delay="400">
+              <div class="card text-center">
+                <div class="card-body">
+                  <img
+                    src="assets/team-4.jpg"
+                    alt=""
+                    class="img-fluid rounded-circle"
+                  />
+                  <h3 class="card-title py-2">Kerri Hackett</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+                    facere fuga nulla!
+                  </p>
+                  <p class="socials">
+                    <i class="bi bi-twitter text-dark mx-1"></i>
+                    <i class="bi bi-facebook text-dark mx-1"></i>
+                    <i class="bi bi-linkedin text-dark mx-1"></i>
+                    <i class="bi bi-instagram text-dark mx-1"></i>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
